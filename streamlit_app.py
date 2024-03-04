@@ -87,7 +87,7 @@ if uploaded_files is not None:
 
             valueslist = []
             for info in infolist:
-                if info[2] > selectvalues[0] and info[2] < selectvalues[1]:
+                if info[2] => selectvalues[0] and info[2] <= selectvalues[1]:
                     valueslist.append(info)
             infolist = valueslist
             # for i in infolist:
